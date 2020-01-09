@@ -8,8 +8,8 @@ OBJ = ${SOURCES:.cpp=.o}
 #CC = llvm-g++
 CC = g++
 
-#LLVM_DIR = /usr/local
-LLVM_DIR = /usr/local/Cellar/llvm@4/4.0.1_1
+LLVM_DIR = /usr/local
+#LLVM_DIR = /usr/local/Cellar/llvm@4/4.0.1_1
 
 #CFLAGS = -g -O3 -I llvm/include -I llvm/build/include -I ./
 CFLAGS = -std=c++11
