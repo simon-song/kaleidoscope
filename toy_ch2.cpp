@@ -51,11 +51,12 @@
 	    identifier '(' identifier* ')'
 
   >>> usage:
-	  ready> def foo(x y) x+ foo(y, 4.0);
-	  ready> def foo(x y) x+ y y;
-	  ready> def foo(x y) x+y );
-	  ready> extern sin(a);
-	  ready> ^D
+	ready> def foo(x y) x+ foo(y, 4.0);
+	ready> def foo(x y) x+ y y;
+	ready> def foo(x y) x+y );
+	ready> extern sin(a);
+	ready> ^D
+
 */
 
 //  lexer
