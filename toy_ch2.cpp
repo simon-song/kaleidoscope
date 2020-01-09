@@ -56,7 +56,6 @@
 	ready> def foo(x y) x+y );
 	ready> extern sin(a);
 	ready> ^D
-
 */
 
 //  lexer
